@@ -1,0 +1,41 @@
+.parent{
+    display: flex;
+    flex-direction: column;
+}
+
+.item1{
+    align-self:center;
+    width: 100%;
+    border-style:double;
+   
+}
+
+.heading{
+    text-align: center; 
+    border-bottom: groove; 
+    border-color: rgba(5, 4, 65, 0.699); 
+}
+.para{
+    padding: 2%;
+    text-align: justify;
+    background-color: rgb(197, 220, 233)
+    
+}
+#collapse-head{   
+
+}
+.big-font{
+    
+}
+
+.item1:nth-child(1){
+    background-color:  hex #f4c430;
+    
+}
+
+@media screen and (min-width: 1200px){
+    .item1{
+        width: 70%;
+      
+    }
+}
